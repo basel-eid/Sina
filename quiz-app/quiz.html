@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    
+    <div id="container">
+        <h1>Quiz</h1>
+        <h2 style="display: flex; justify-content: center; text-align: center;"></h2>
+
+        <ul>
+            <li>
+                <label id="question">Question</label>
+            </li>
+            <li>
+                <input type="radio" name="q"  class="qs"  id="aone">
+                <label id="done" for="one">answer</label>
+            </li>
+            <li>
+                <input type="radio" name="q" class="qs"  id="atwo">
+                <label id="dtwo" for="two">answer</label>
+            </li>
+            <li>
+                <input type="radio" name="q"  class="qs"   id="athree">
+                <label id="dthree" for="three">answer</label>
+            </li>
+            <li>
+                <input type="radio" name="q"  class="qs"   id="afour">
+                <label id="dfour" for="four">answer</label>
+            </li>
+            <button onclick="clickss()" id="nextbtn">Next</button>
+        </ul>   
+        <script src="quiz.js"></script>
+    </div>
+    
+</body>
+</html>
